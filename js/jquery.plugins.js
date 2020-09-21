@@ -14,6 +14,16 @@ var ativo = $(".menu-item[href='" + url + "']");
 $(".menu-item").parent().removeClass("current-menu-item");
 $(ativo).parent().addClass("current-menu-item");
 
+$(function () {
+  var pgurl = window.location.href.substr(
+    window.location.href.lastIndexOf("/") + 1
+  );
+  $(".menu-item ").each(function () {
+    if ($(this).attr("href") == pgurl || $(this).attr("href") == "")
+      $(this).closest("li").addClass("current-menu-item");
+  });
+});
+
 !(function (a, b, c, d) {
   function e(b, c) {
     (this.element = b),

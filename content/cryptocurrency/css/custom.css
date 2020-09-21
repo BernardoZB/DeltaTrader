@@ -5,3 +5,9 @@
 .background {
   background-color: green;
 }
+
+#Top_bar .menu>li ul li a:hover,
+#Top_bar .menu>li ul li.hover>a {
+  text-decoration: none;
+  background: rgba(0, 0, 0, .06);
+}
