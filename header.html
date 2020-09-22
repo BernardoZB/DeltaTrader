@@ -5,6 +5,13 @@
   console.log(ativo);
   $(".menu-item").parent().removeClass("current-menu-item");
   $(ativo).parent().addClass("current-menu-item");
+
+  if (url == "/curso-metatrader-5.html") {
+    $(".active-menu-curso").parent().addClass("current-menu-item");
+  }
+  if (url == "/robos-gratuitos.html") {
+    $(".active-menu-robo").parent().addClass("current-menu-item");
+  }
 </script>
 <script src="js/scripts.js"></script>
 
@@ -13,82 +20,42 @@
     <div class="column one">
       <div class="top_bar_left clearfix">
         <div class="logo">
-          <a
-            id="logo"
-            href="/index.html"
-            title="BeCryptoCurrency - BeTheme"
-            data-height="60"
-            data-padding="5"
-            ><img
-              class="logo-main scale-with-grid"
-              src="/content/cryptocurrency/images/logo_branca-01.png"
-              data-height="37"
-              alt="crypto logo" /><img
-              class="logo-sticky scale-with-grid"
-              src="/content/cryptocurrency/images/logo_branca-01.png"
-              data-height="37"
-              alt="crypto logo" /><img
-              class="logo-mobile scale-with-grid"
-              src="/content/cryptocurrency/images/logo_branca-01.png"
-              data-retina=""
-              data-height="37"
-              alt="crypto logo" /><img
-              class="logo-mobile-sticky scale-with-grid"
-              src="/content/cryptocurrency/images/logo_branca-01.png"
-              data-height="37"
-              alt="crypto logo"
-          /></a>
+          <a id="logo" href="/index.html" title="BeCryptoCurrency - BeTheme" data-height="60" data-padding="5"><img
+              class="logo-main scale-with-grid" src="/content/cryptocurrency/images/logo_branca-01.png" data-height="37"
+              alt="crypto logo" /><img class="logo-sticky scale-with-grid"
+              src="/content/cryptocurrency/images/logo_branca-01.png" data-height="37" alt="crypto logo" /><img
+              class="logo-mobile scale-with-grid" src="/content/cryptocurrency/images/logo_branca-01.png" data-retina=""
+              data-height="37" alt="crypto logo" /><img class="logo-mobile-sticky scale-with-grid"
+              src="/content/cryptocurrency/images/logo_branca-01.png" data-height="37" alt="crypto logo" /></a>
         </div>
         <div class="menu_wrapper">
           <nav id="menu">
             <ul id="menu-main-menu" class="menu menu-main">
               <li class="menu-item">
-                <a class="menu-item teste" href="/curso.html"
-                  ><span>Cursos</span></a
-                >
+                <a class="menu-item active-menu-curso" href="/curso.html"><span>Cursos</span></a>
                 <ul class="sub-menu" style="display: none">
-                  <li
-                    id="menu-item-35"
-                    class="menu-item menu-item-type-post_type menu-item-object-page"
-                  >
-                    <a
-                      id="curso"
-                      class="menu-item"
-                      href="/curso-metatrader-5.html"
-                    >
+                  <li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page">
+                    <a class="menu-item" href="/curso-metatrader-5.html">
                       <span>Introdução ao MetaTrader 5</span>
                     </a>
                   </li>
-                  <li
-                    id="menu-item-49"
-                    class="menu-item menu-item-type-custom menu-item-object-custom last-item"
-                  >
-                    <a
-                      class="menu-item"
-                      href="https://www.programeseurobo.com.br/"
-                    >
+                  <li id="menu-item-49" class="menu-item menu-item-type-custom menu-item-object-custom last-item">
+                    <a class="menu-item" href="https://www.programeseurobo.com.br/">
                       <span>Curso Completo MQL5</span>
                     </a>
                   </li>
                 </ul>
               </li>
               <li id="menu-item-36">
-                <a class="menu-item" href="/robos-de-investimento.html"
-                  ><span>Robôs de investimentos</span></a
-                >
+                <a class="menu-item active-menu-robo" href="/robos-de-investimento.html"><span>Robôs de
+                    investimentos</span></a>
                 <ul class="sub-menu" style="display: none">
-                  <li
-                    id="menu-item-35"
-                    class="menu-item menu-item-type-post_type menu-item-object-page"
-                  >
+                  <li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page">
                     <a class="menu-item" href="/robos-gratuitos.html">
                       <span>Robôs Gratuitos</span>
                     </a>
                   </li>
-                  <li
-                    id="menu-item-49"
-                    class="menu-item menu-item-type-custom menu-item-object-custom last-item"
-                  >
+                  <li id="menu-item-49" class="menu-item menu-item-type-custom menu-item-object-custom last-item">
                     <a href="https://zeus.deltatrader.com.br/">
                       <span>DeltaTrader Zeus</span>
                     </a>
@@ -96,15 +63,11 @@
                 </ul>
               </li>
               <li id="menu-item-39">
-                <a class="menu-item" href="/boleta-delta.html"
-                  ><span>BoletaDelta</span></a
-                >
+                <a class="menu-item" href="/boleta-delta.html"><span>BoletaDelta</span></a>
               </li>
             </ul>
           </nav>
-          <a class="responsive-menu-toggle" href="#"
-            ><i class="icon-menu-fine"></i
-          ></a>
+          <a class="responsive-menu-toggle" href="#"><i class="icon-menu-fine"></i></a>
         </div>
       </div>
     </div>
@@ -119,24 +82,16 @@
   <div class="menu_wrapper"></div>
   <ul class="social">
     <li class="facebook">
-      <a href="https://www.facebook.com/DeltaTrader.com.br/" title="facebook"
-        ><i class="icon-facebook"></i
-      ></a>
+      <a href="https://www.facebook.com/DeltaTrader.com.br/" title="facebook"><i class="icon-facebook"></i></a>
     </li>
     <li class="twitter">
-      <a href="https://twitter.com/delta_trader" title="Twitter"
-        ><i class="icon-twitter"></i
-      ></a>
+      <a href="https://twitter.com/delta_trader" title="Twitter"><i class="icon-twitter"></i></a>
     </li>
     <li class="youtube">
-      <a href="https://www.youtube.com/deltatrader" title="YouTube"
-        ><i class="icon-play"></i
-      ></a>
+      <a href="https://www.youtube.com/deltatrader" title="YouTube"><i class="icon-play"></i></a>
     </li>
     <li class="instagram">
-      <a href="https://www.instagram.com/deltatrader_br/" title="instagram"
-        ><i class="icon-instagram"></i
-      ></a>
+      <a href="https://www.instagram.com/deltatrader_br/" title="instagram"><i class="icon-instagram"></i></a>
     </li>
   </ul>
 </div>
