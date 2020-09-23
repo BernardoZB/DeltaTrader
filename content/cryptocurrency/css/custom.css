@@ -2,4 +2,10 @@
 .background{background-color:green;}
 #Top_bar .menu > li ul li a:hover,
 #Top_bar .menu > li ul li.hover > a{text-decoration:none;background:rgba(0, 0, 0, 0.06);}
-.mauticform-input{border-color:#0d1a85 !important;width:310px !important;border-width:2px !important;}
+.mauticform-input{border-color:#0d1a85 !important;width:850px !important;height: 70px;border-width:3px !important;border-radius: 100px !important;font-size: 17px !important;padding-left: 4% !important;}
+.subtitulo{text-align: center;margin-top: -5%;}
+.btn-boleta{ width: 150px; height: 70px; font-size: 16px; background-color: #0D1A85;border-radius: 100px !important;} 
+.msg-error{color: red;} 
+@media only screen and (max-width:1239px){.btn-boleta{margin-top: -3%;}.title-download{text-align: center;}}
+@media only screen and (max-width:959px){.mauticform-input{width: 700px !important;}}
+@media only screen and (max-width:759px){.btn-boleta{margin-top: 10px;}}
