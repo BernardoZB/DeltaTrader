@@ -4,8 +4,15 @@
 #Top_bar .menu > li ul li.hover > a{text-decoration:none;background:rgba(0, 0, 0, 0.06);}
 .mauticform-input{border-color:#0d1a85 !important;width:850px !important;height: 70px;border-width:3px !important;border-radius: 100px !important;font-size: 17px !important;padding-left: 4% !important;}
 .subtitulo{text-align: center;margin-top: -5%;}
-.btn-boleta{ width: 150px; height: 70px; font-size: 16px; background-color: #0D1A85;border-radius: 100px !important;} 
+.btn-boleta{ width: 160px; height: 50px; font-size: 17px; background-color: #0D1A85;border-radius: 100px !important; margin-top: 1%;} 
+.btn-boleta:hover{background-color: #1B245B;}
 .msg-error{color: red;} 
+.pricing-box .plan-inside ul li{border-bottom:none !important}
+.btn-inscreva-se{background-color: #0D1A85 !important;}
+.btn-inscreva-se:hover{background-color: #1B245B !important;}
+table tbody :hover{color: black !important;}
+table tbody {color: black !important;}
 @media only screen and (max-width:1239px){.btn-boleta{margin-top: -3%;}.title-download{text-align: center;}}
 @media only screen and (max-width:959px){.mauticform-input{width: 700px !important;}}
+@media only screen and (max-width:767px){.inicio{margin-left: 28% !important;}#Top_bar .logo #logo img { height: 40px !important;}}
 @media only screen and (max-width:759px){.btn-boleta{margin-top: 10px;}}

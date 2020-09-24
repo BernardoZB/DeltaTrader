@@ -1116,15 +1116,6 @@ blockquote{font-size:13px;}
 .the-icons.span3 [class^="icon-"]{color:#3E3E3E;font-size:20px;position:absolute;top:0;left:0;cursor:default;}
 .the-icons.span3 [class^="icon-"]:hover{font-size:50px;background:#fff;padding:10px;display:block;text-align:center;width:70px;height:50px;border:1px solid #eee;top:-25px;left:-32px;z-index:2;}
 .the-icons.span3 .i-name{padding-left:40px;}
-@media only screen and min-width:768px and max-width:959px{.the-icons.span3{width:33.333%;}
-}
-@media only screen and min-width:480px and max-width:767px{.the-icons.span3{width:50%;}
-}
-@media only screen and max-width:479px{.the-icons.span3{width:100%;}
-}
-.ui-tabs .ui-tabs-nav li.ui-state-active a:after,
-body:not(.woocommerce-page) table tr:hover td,
-body:not(.woocommerce-page) table tr:hover td a{color:#fff;}
 .accordion .question .answer,
 .ui-tabs .ui-tabs-panel,
 .ui-tabs .ui-tabs-nav li.ui-state-active a,
